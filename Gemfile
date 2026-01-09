@@ -7,12 +7,12 @@ source "https://rubygems.org"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "base64"
   gem "jekyll-paginate"
   gem "openssl", "~> 3.3.2"
   gem "jekyll-gist"
   gem "webrick", "~> 1.9"
   gem "faraday-retry"
+  gem "jekyll-remote-theme"
 end
 
 # Performance-booster for watching directories on Windows
