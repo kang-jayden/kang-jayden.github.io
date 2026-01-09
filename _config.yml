@@ -1,0 +1,23 @@
+# Setup
+title:            Jayden Kang
+tagline:          'My Portfolio'
+description:      'All work seen here is created by me over the past 5 years.'
+url:              http://kang-jayden.github.io
+baseurl:          /
+
+author:
+  name:           'Jayden Kang'
+  url:            https://instagram.com/jeidun
+
+plugins_dir: jekyll-paginate
+paginate:         5
+
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/kang-jayden/kang-jayden.github.io#
