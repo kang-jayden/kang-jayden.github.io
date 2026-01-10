@@ -84,23 +84,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
+  color: #313131;
 }
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
+  color: #313131;
 }
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
+  color: #101553;
 }
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
+  color: #101553;
 }
 
 /* Body text */
@@ -325,8 +328,8 @@ tbody tr:nth-child(odd) th {
 /*
  * Posts and pages
  *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
+ * Each post is wrapped in `.post` and is used on default and post layouts.
+ * Each page is wrapped in `.page` and is only used on the page layout.
  */
 
 .page,

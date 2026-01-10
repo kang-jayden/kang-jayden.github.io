@@ -14,10 +14,16 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content| truncatewords: 50 }}
   </div>
   {% endfor %}
 </div>
+
+{% comment %}
+Pagination for the 
+[ Older | Newer ]
+buttons at bottom of page.
+{% endcomment %}
 
 <div class="pagination">
   {% if paginator.next_page %}
