@@ -17,7 +17,7 @@ These skills all help me grow and move towards becoming a better ecologist.
         {% if post.title == page.title %}
  <p class="nav-link bullet-pointer mb-0">{{ post.title }}</p>
         {% else %}
- <a class="nav-link bullet-hash" href="{{ post.url }}">{{ post.title }}</a>
+ <a class="nav-link bullet-hash" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {% endif %}
 {% endfor %}
 

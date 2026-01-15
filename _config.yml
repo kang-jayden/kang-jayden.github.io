@@ -3,7 +3,7 @@ title:            Jayden Kang
 tagline:          'My Portfolio'
 description:      'All work seen here is created by me over the past 5 years.'
 url:              http://kang-jayden.github.io
-baseurl:          /
+baseurl:          /blog/
 
 author:
   name:           'Jayden Kang'
@@ -11,6 +11,10 @@ author:
 
 plugins_dir: jekyll-paginate
 paginate:         5
+
+# Images
+content-images-path: /images/img-normal/
+content-thumbs-images-path: /images/img-thumbs/
 
 # Dependencies
 markdown:         kramdown
