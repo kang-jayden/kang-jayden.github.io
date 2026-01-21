@@ -1,4 +1,7 @@
 # Setup
+markdown: redcarpet
+highlighter: pygments
+
 title:            Jayden Kang
 tagline:          'My Portfolio'
 description:      'All work seen here is created by me over the past 5 years.'
