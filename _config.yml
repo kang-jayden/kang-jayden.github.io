@@ -6,7 +6,6 @@ title:            Jayden Kang
 tagline:          'My Portfolio'
 description:      'All work seen here is created by me over the past 5 years.'
 url:              http://kang-jayden.github.io
-baseurl:          /blog/
 
 author:
   name:           'Jayden Kang'
