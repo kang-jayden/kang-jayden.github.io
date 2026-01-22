@@ -14,10 +14,6 @@ author:
 plugins_dir: jekyll-paginate
 paginate:         5
 
-# Images
-content-images-path: /images/img-normal/
-content-thumbs-images-path: /images/img-thumbs/
-
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
