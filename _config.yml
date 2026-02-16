@@ -1,27 +1,30 @@
-# Setup
-markdown: redcarpet
-highlighter: pygments
-
+# Site Settings
 title:            Jayden Kang
 tagline:          'My Portfolio'
 description:      'All work seen here is created by me over the past 5 years.'
 url:              http://kang-jayden.github.io
 baseurl:          ""
-theme:           jekyll-remote-theme
 
-author:
-  name:           'Jayden Kang'
-  url:            https://instagram.com/jeidun
+# Theme Settings
+# 'theme' is for local gems. 'remote_theme' is for GitHub-hosted themes.
+remote_theme:     " vszhub/not-pure-poole" # <-- CHANGE THIS to the theme you want
 
-plugins_dir: jekyll-paginate
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-remote-theme
+
+# Pagination
 paginate:         5
 
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge    # Pygments is largely deprecated; Rouge is the Jekyll 4 standard
 
 # Custom vars
 version:          2.1.0
 
 github:
-  repo:           https://github.com/kang-jayden/kang-jayden.github.io#
+  repo:           https://github.com/kang-jayden/kang-jayden.github.io
