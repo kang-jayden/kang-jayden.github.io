@@ -5,7 +5,13 @@ description:      'All work seen here is created by me over the past 5 years.'
 url:              http://kang-jayden.github.io
 baseurl:          ""
 
+
 # Theme Settings
+# Background
+cover_image:      /images/background-image.jpeg
+cover_bg_color:   rgb(40, 73, 77)
+cover_color:      rgb(255, 255, 255)
+
 # 'theme' is for local gems. 'remote_theme' is for GitHub-hosted themes.
 remote_theme:     " vszhub/not-pure-poole" # <-- CHANGE THIS to the theme you want
 
@@ -28,3 +34,22 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/kang-jayden/kang-jayden.github.io
+  username:       kang-jayden
+
+sass:
+  sass_dir:       _sass
+  style:          :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
+
+# Specify the author for blog posts
+author:
+  name: Songzi Vong
+  url: https://github.com/vszhub/
+  email: vszhub@gmail.com
