@@ -20,4 +20,4 @@ As the Satellite Embedding Dataset has countless more dimensions to a certain pl
 I used the Satellite Embedding Dataset's "Supervised Classification" method. This method involves using an image of Sentinel-2 data, visualised in false colour to exaggerate differences in vegetation, to allow us to lay pins down. These pins would create samples of pixels for the training of the classification model. A set of pins would be placed in grassland, and another in forests. Do this for water, concrete, and mangroves as well.
 
 
-After training the model, it can be used to pinpoint similar water, concrete, mangrove, forest, and grassland pixels in your area of interest.
+After training the model, it can be used to pinpoint similar water, concrete, mangrove, forest, and grassland pixels in your area of interest. And you're done! Now you have a model that can create Land-Use Classification maps for any place in the world, as long as the climate is similar to where the classification model is trained on.

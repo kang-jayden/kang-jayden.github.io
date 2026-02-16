@@ -3,7 +3,8 @@
 source "https://rubygems.org"
 
 # gem "rails"
-# gem "jekyll", "~> 4.4"
+gem "jekyll", "~> 4.4"
+gem "rubyzip", "~> 3.2"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
