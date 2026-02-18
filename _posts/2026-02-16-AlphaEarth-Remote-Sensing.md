@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Utilising Google's AlphaEarth in Classification of Land Use
+tags: GIS
 ---
 
 ## Some Context

@@ -134,6 +134,7 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   openssl (~> 3.3.2)
+  rouge
   rubyzip (~> 2.3)
   wdm (~> 0.1)
   webrick (~> 1.9)
