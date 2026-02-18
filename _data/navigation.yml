@@ -2,5 +2,7 @@
   url: /
 - title: About
   url: /about/
-- title: Post Tags
-  url: /tags/
+- title: Categories
+  url: /categories/
+- title: Dates
+  url: /dates/

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mapping Out Dipterocarp Forests with Remote Sensing
-tags: GIS
+categories: GIS
+tags: GIS Sentinel-2 
 ---
 ## Cloud Masking of Sentinel-2 Data
 First, we need clean data to work with. If we were using only the Normalised Difference Vegetation Index (NDVI), then using Copernicus' Sentinel-2 Quarterly Global Mosaics would be of no issue. But, as we are also creating a Normalised Difference Moisture Index (NDMI), which requires Band 11 (SWIR1), we can't use the Quarterly Global Mosaics.
