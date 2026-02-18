@@ -4,6 +4,8 @@ title: Mapping Out Dipterocarp Forests with Remote Sensing
 categories: GIS
 tags: GIS Sentinel-2 
 ---
+This is a tutorial on how to create a map of the Dipterocarp Forests present in Southeast Asia. It is done using two simple indices that have been developed by the USGS during the early years of the Landsat satellite series. This could help anyone interested in forestry within the Southeast Asian context.
+
 ## Cloud Masking of Sentinel-2 Data
 First, we need clean data to work with. If we were using only the Normalised Difference Vegetation Index (NDVI), then using Copernicus' Sentinel-2 Quarterly Global Mosaics would be of no issue. But, as we are also creating a Normalised Difference Moisture Index (NDMI), which requires Band 11 (SWIR1), we can't use the Quarterly Global Mosaics.
 
