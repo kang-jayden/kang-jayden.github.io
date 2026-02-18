@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://jayden_kang1@icloud.com
+  icon: fas fa-envelope
+- title: Instagram
+  url: https://instagram.com/jeidun
+  icon: fab fa-instagram
+- title: GitHub
+  url: https://github.com/kang-jayden/kang-jayden.github.io
+  icon: fab fa-github

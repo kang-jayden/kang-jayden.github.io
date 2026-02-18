@@ -10,6 +10,7 @@ gem "base64"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "kramdown-parser-gfm"
+gem "bigdecimal"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

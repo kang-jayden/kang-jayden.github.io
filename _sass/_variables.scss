@@ -71,3 +71,9 @@ $sm-width: 35.5rem;
 $md-width: 48rem;
 $lg-width: 64rem;
 $xl-width: 80rem;
+
+// Yellow theme
+[data-theme="yellow"] {
+  --body-bg: var(--yellow);
+  --body-color: #fff;
+}
