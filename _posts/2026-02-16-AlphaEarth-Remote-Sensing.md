@@ -4,6 +4,7 @@ title: Utilising Google's AlphaEarth in Classification of Land Use
 categories: GIS
 tags: GIS AlphaEarth Remote-Sensing Sentinel-2
 ---
+This blog post is for those seeking to use Google Earth Engine and their shiny new Satellite Embedding Dataset to execute some land-use classification in their region.
 
 ## Some Context
 ### What is AlphaEarth?
