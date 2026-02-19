@@ -2,7 +2,7 @@
 layout: post
 title: Mapping Out Dipterocarp Forests with Remote Sensing
 categories: GIS
-tags: GIS Sentinel-2 
+tags: GIS Sentinel-2 Remote-Sensing
 ---
 This is a tutorial on how to create a map of the Dipterocarp Forests present in Southeast Asia. It is done using two simple indices that have been developed by the USGS during the early years of the Landsat satellite series. This could help anyone interested in forestry within the Southeast Asian context.
 
@@ -125,3 +125,9 @@ Map.addLayer(ndmi_forest, {min: 0, max: 1, palette: palette}, 'NDMI forest');
 // Map.addLayer(ndvi_forest, {min: 0, max: 1, palette: palette}, 'NDVI forest');
 Map.addLayer(forest_detection, {min: 0, max: 1, palette: palette}, 'Forest Detection');
 {% endhighlight %}
+
+## End Product
+
+![Map of the Southeast Asian Rainforests](/images/blog/ForestRemoteSensing/ASEANforests.png)
+
+Tada! Now you have a completed raster of an approximation of the patches of Dipterocarp or Southeast Asian Rainforest. This could possibly be combined with a Digital Elevation Model (DEM) to further classify the Dipterocarp Forest into Lowland, Hill, Submontane, and Montane forests.
