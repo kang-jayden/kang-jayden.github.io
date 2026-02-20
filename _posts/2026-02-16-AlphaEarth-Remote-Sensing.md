@@ -25,19 +25,19 @@ After training the model, it can be used to pinpoint similar water, concrete, ma
 
 ## Getting Started
 ### Finding Training Samples
-![Geometry Import menu of GEE](/images/blog/AlphaEarth/GeometryImport.png){: .limited-height}
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55106336320/in/dateposted-public/" title="GeometryImport"><img src="https://live.staticflickr.com/65535/55106336320_7ed5bca064_z.jpg" width="252" height="350" alt="GeometryImport"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 First, we have to find some good examples of the types of land-use we wish to classify. Above is an image of my completed table of ten categories. For every category of land-use, we will create a new geometry. This can be done by clicking the "+ new layer" button under "Geometry Imports".
 
-![Geometry Import menu (FeatureCollection)](/images/blog/AlphaEarth/GeometryImportFeatureCollection.png){: .limited-height}
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55105074927/in/dateposted-public/" title="GeometryImportFeatureCollection"><img src="https://live.staticflickr.com/65535/55105074927_48f1bff770_z.jpg" width="511" height="350" alt="GeometryImportFeatureCollection"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Make sure to select "Feature Collection".
 
-![Geometry Import menu (Properties)](/images/blog/AlphaEarth/GeometryImportProperties.png){: .limited-height}
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55106220514/in/dateposted-public/" title="GeometryImportProperties"><img src="https://live.staticflickr.com/65535/55106220514_3617a1a9d5_z.jpg" width="446" height="350" alt="GeometryImportProperties"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 And then add "landcover" as a <strong>property name</strong>, and a number from 1 to however land-use categories you have. Use "10" if you have ten categories. Also ensure you are drawing with "Point Drawing" instead of "Polygon" or "Rectangle Drawing".
 
-![Geometry Import menu (Examples)](/images/blog/AlphaEarth/ExamplesOfCategories.png){: .limited-height}
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55106220519/in/dateposted-public/" title="ExamplesOfCategories"><img src="https://live.staticflickr.com/65535/55106220519_3cfa88bb22_z.jpg" width="640" height="195" alt="ExamplesOfCategories"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 For each category, we need to place pins on the good examples of their corresponding category. Below, there are white pins placed on areas designated as Scrubland, green pins placed on areas designated as Dipterocarp Forest, and yellow pins placed on areas designated as Urban Vegetation. These pins will be used as a sample to feed the machine learning algorithm.
 
@@ -205,3 +205,7 @@ Export.image.toDrive({
   }
 });
 {% endhighlight %}
+
+## End Result
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55106171843/in/dateposted-public/" title="SG_10classes"><img src="https://live.staticflickr.com/65535/55106171843_ee329648c7_z.jpg" width="640" height="452" alt="SG_10classes"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Ta-da! You've now made the beginnings of a land-use classification map of your region.

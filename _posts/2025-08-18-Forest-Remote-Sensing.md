@@ -128,6 +128,6 @@ Map.addLayer(forest_detection, {min: 0, max: 1, palette: palette}, 'Forest Detec
 
 ## End Product
 
-![Map of the Southeast Asian Rainforests](/images/blog/ForestRemoteSensing/ASEANforests.png)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/204247661@N03/55106336335/in/dateposted-public/" title="ASEANforests"><img src="https://live.staticflickr.com/65535/55106336335_55a9ec8070_z.jpg" width="640" height="453" alt="ASEANforests"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Tada! Now you have a completed raster of an approximation of the patches of Dipterocarp or Southeast Asian Rainforest. This could possibly be combined with a Digital Elevation Model (DEM) to further classify the Dipterocarp Forest into Lowland, Hill, Submontane, and Montane forests.
